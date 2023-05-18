@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        th,
+         td{
+            border: 1px solid black;
+            padding: 15px 10px 5px 20px;
+        }
+
+        .col_2{
+            width:100px ;
+            /* background-color: aqua; */
+        }
+
+        #col_3{
+            width:100px ;
+            /* background-color:aquamarine; */
+        }
+    </style>
+</head>
+<body>
+    <figure>
+        <figcaption>
+            <!-- <strong> Timetable</strong> -->
+            <h2>Timetable</h2>
+        </figcaption>
+    <table>
+        <caption>
+        2023_2_1_12_양희망 시간표
+        </caption>
+        <colgroup>
+            <!-- <col style="width: 100px; background-color: antiquewhite;"> -->
+            <col class="col_02">
+            <col id="col_03"> 
+            <col style="width:100px;">
+        </colgroup>
+
+        <thead>
+        <tr>            
+            <td>구분</td>
+            <td>월요일</td>
+            <td>화요일</td>
+            <td>수요일</td>
+</tr>
+</thead>
+<tbody >
+<tr>
+
+    <td>2행 1열</td>
+    <td>2행 2열</td>
+    <td rowspan="3">겜프</td>
+    <td rowspan="3">웹프밍</td>
+
+</tr>
+<tr>
+
+    <td>3행 1열</td>
+    <td>3행 2열</td>
+    <!-- <td>3행 3열</td> -->
+    <!-- <td>3행 4열</td> -->
+
+</tr>
+<tr>
+
+    <td>4행 1열</td>
+    <td>4행 2열</td>
+    <!-- <td>4행 3열</td> -->
+    <!-- <td>4행 4열</td> -->
+
+</tr>
+</tbody>
+
+ <tfoot>
+<tr>
+
+    
+        <td colspan="4">지긋히 있으면 아무것도 변하지 않아!</td>
+        <!-- <td>4행 2열</td>
+        <td>4행 3열</td> -->
+        <!-- <td>4행 4열</td> -->
+   
+    </tr>
+</tfoot>
+
+    </table>
+</figure>
+</body>
+<a href="./index.html">home</a>
+<a href="./profile.html">porfile</a>
+</html>
+
+
+
